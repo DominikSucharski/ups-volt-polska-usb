@@ -7,7 +7,7 @@ Tested with [MICRO UPS 1200 2x7Ah](https://voltpolska.pl/zasilanie-awaryjne/micr
 1. Download [hidapi](https://github.com/libusb/hidapi/releases)
 2. Extract the archive
 3. Copy the hidapi.dll and hidapi.lib files to the C:\Windows\System32 folder
-4. Install python
+4. Install python (Python 3.10)
 5. Run **pip install hid** in powershell
 6. Go to the folder with the ups_volt_polska.py file
 7. Run **python .\ups_volt_polska.py** in powershell
